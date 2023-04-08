@@ -20,3 +20,36 @@
     - Title element, displays in webpage's browser tab
     - Body element, all content that will be displayed to users
         - Always below the head element
+
+
+# Working With Text
+- Paragraph: <p> 
+- Heading: <h>
+- Strong (bold) </strong>
+- Em (italic) <em>
+- Comments <!-- -->
+
+# Lists
+- Unordered List:
+    - <ul> with each item having a <li> element </ul>
+- Ordered List:
+    - <ol> with each item having a <li> element </ul>
+
+# Links and Images
+To create a link in HTML we use the anchor element
+- Done by wrapping the text/HTML element with an <a> tag
+- Destination for anchor tag = HTML attribute
+    - Gives additional information to an HTML element, goes in element's opening tag
+
+Two kinds of links: Absolute and Relative 
+## Absolute
+- Absolute links are links to pages on other websites
+    - This link will always contain the protocol and domain of the destination
+## Relative 
+- Relative links are links to other pages within our own website
+    - Here the domain name is assumed, only the file path is included in the link
+
+# Images
+- Images use the <img> tag
+- this tage is self closing
+    - <img src = "link/path to image">
