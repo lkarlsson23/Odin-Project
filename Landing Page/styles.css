@@ -1,0 +1,155 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 0px 200px;
+    
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+a, .subtext{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.awesomewebsite{
+    font-size: 48px;
+    color: #F9FAF8;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+.boxone{
+    display: flex;
+    padding: 0px 200px;
+    background-color: #1F2937;
+    padding-bottom: 100px;
+    padding-top: 75px;
+    gap: 50px;
+    align-items: center;
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    background-color: #3882F6;
+    border: #3882F6;
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+}
+
+img{
+    width: 650px;
+    height: auto;
+
+}
+
+.boxtwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-two-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    
+}
+
+.box-two-images{
+    display: flex;
+    padding: 0px 200px;
+    gap: 10px;
+    text-align: center;
+}
+
+.kevin{
+    width: 300px;
+    height: auto;
+    border: 5px solid #3882F6
+}
+
+.boxthree{
+    display: flex;
+    margin-top: 50px;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quote{
+    margin: 100px 0px;
+    align-items: center;
+    padding: 0px 200px;
+    max-width: 800px;
+}
+
+.quote-text{
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.thor{
+    text-align: right;
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.bluebox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 50px;
+    margin: 150px 200px;
+}
+
+.blueboxtext{
+    display: flex;
+    flex-direction: column;
+}
+
+.lastbutton{
+    border: 2px solid white;
+    font-size: 15px;
+}
+
+.calltoaction{
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.signup{
+    color: white;
+}
